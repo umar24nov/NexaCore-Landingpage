@@ -131,7 +131,7 @@ export default function Footer() {
               color: 'rgba(248,250,255,0.3)',
             }}
           >
-            © 2024 NexaCore, Inc. All rights reserved.
+            © 2026 NexaCore, Inc. All rights reserved.
           </div>
           <div style={{ display: 'flex', gap: 24 }}>
             {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((l) => (
