@@ -62,7 +62,7 @@ vercel
 ## 📁 Folder Structure
 
 ```
-nexacore2/
+nexacore/
 ├── public/
 │   └── index.html
 ├── src/
