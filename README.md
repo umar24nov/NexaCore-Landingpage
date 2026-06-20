@@ -12,7 +12,7 @@ A modern, fully responsive tech company landing page built with React.js.
 
 ### Steps
 ```bash
-cd nexacore2
+cd nexacore
 npm install
 npm start
 ```
@@ -62,7 +62,7 @@ vercel
 ## 📁 Folder Structure
 
 ```
-nexacore2/
+nexacore/
 ├── public/
 │   └── index.html
 ├── src/
