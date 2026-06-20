@@ -47,8 +47,8 @@ export default function Contact() {
         ) : (
           <form onSubmit={handleSubmit}>
             {[
-              { id: 'name', label: 'Your Name', type: 'text', ph: 'Ada Lovelace' },
-              { id: 'email', label: 'Work Email', type: 'email', ph: 'ada@company.com' },
+              { id: 'name', label: 'Your Name', type: 'text', ph: 'Mohammad Umar Farook' },
+              { id: 'email', label: 'Work Email', type: 'email', ph: 'nexacore@company.com' },
             ].map((f) => (
               <div key={f.id} style={{ marginBottom: 20, textAlign: 'left' }}>
                 <label style={{ fontFamily: fonts.body, fontSize: 13, fontWeight: 500, color: colors.textSoft, display: 'block', marginBottom: 8 }}>{f.label}</label>
