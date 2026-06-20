@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { overflow-x: hidden; background: #0A0F1E; -webkit-font-smoothing: antialiased; }
+
+/* ── DESKTOP: 1025px+ (default styles in components) ── */
+
+/* ── TABLET: 769px – 1024px ── */
+@media (max-width: 1024px) {
+  .section-inner { padding: 80px 2rem !important; }
+  .about-grid { gap: 48px !important; }
+  .hero-stats { gap: 28px !important; }
+}
+
+/* ── MOBILE: up to 768px ── */
+@media (max-width: 768px) {
+  .desktop-nav { display: none !important; }
+  .mobile-menu-btn { display: block !important; }
+  .about-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+  .section-inner { padding: 64px 1.25rem !important; }
+}
+
+@media (max-width: 480px) {
+  .footer-grid { grid-template-columns: 1fr !important; }
+  .hero-stats { gap: 24px !important; }
+}
