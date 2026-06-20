@@ -90,21 +90,21 @@ export const REASONS = [
 
 export const TESTIMONIALS = [
   {
-    name: 'Priya Sharma',
+    name: 'Amir Humza',
     role: 'CTO, FinStack',
     quote:
       'We migrated our entire data pipeline to NexaCore in three weeks. The observability tooling alone saved us 20 hours of debugging per month.',
     avatar: 'PS',
   },
   {
-    name: 'Marcus Webb',
+    name: 'Abdul Malik',
     role: 'VP Engineering, Loopify',
     quote:
       'The edge compute network is genuinely world-class. Our p99 latency dropped from 340ms to 18ms after we switched. Our users noticed immediately.',
     avatar: 'MW',
   },
   {
-    name: 'Aiko Tanaka',
+    name: 'Mohammad Ayaan',
     role: 'Founder, Kaze AI',
     quote:
       'NexaCore\'s ML platform let us ship our first model in two weeks instead of two months. The managed inference endpoints just work.',
