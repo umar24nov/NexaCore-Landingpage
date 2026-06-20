@@ -47,7 +47,7 @@ export default function Contact() {
         ) : (
           <form onSubmit={handleSubmit}>
             {[
-              { id: 'name', label: 'Your Name', type: 'text', ph: 'Mohammad Umar Farook' },
+              { id: 'name', label: 'Your Name', type: 'text', ph: 'Mohammad Umar' },
               { id: 'email', label: 'Work Email', type: 'email', ph: 'nexacore@company.com' },
             ].map((f) => (
               <div key={f.id} style={{ marginBottom: 20, textAlign: 'left' }}>
